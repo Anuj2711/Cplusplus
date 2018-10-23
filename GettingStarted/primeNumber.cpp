@@ -3,10 +3,9 @@ using namespace std;
 
 int main()
 {
-  int a,i,j=0;
-  cout<<"Enter a number \n";
+int a,i,j=0;
   cin>>a;
-  for(i=0;i<=(a/2);i++)
+  for(i=2;i<=sqrt(a);i++)
   {
     if(a%i==0)
       j++;
